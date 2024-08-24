@@ -1,0 +1,5 @@
+
+GET http://localhost:8080/healthly
+
+POST http://localhost:8080/categories
+Content-Type: application/json

@@ -17,6 +17,7 @@ func NewCategory(name string) (*Category, error ){
 	// business rules
 	if err := category.isValid(); err != nil {
 	return category, nil
+	}
 }
 
 func (c *Category) isValid() error {
